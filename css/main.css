@@ -1,6 +1,6 @@
 
 :root {
-    --basefont: 16px;
+    --basefont: 14px;
 }
 
 html {
@@ -12,6 +12,9 @@ body {
     height: 100%;
     font-family: 'Roboto', arial, sans-serif;
     font-size: var( --basefont );
+    line-height: 1.8rem;
+    color: #2c2823;
+    font-weight: 300;
 }
 
 *,
@@ -44,10 +47,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin-bottom: 20px;
-}
-
-p, body {
-    font-weight: 300;
 }
 
 main {
@@ -126,3 +125,8 @@ section hero
         letter-spacing: 0.1rem;
     }
 }
+
+/* 
+====================
+section overview 
+*/
