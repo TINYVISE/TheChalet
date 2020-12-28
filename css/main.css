@@ -243,3 +243,44 @@ section property
 #property > div:last-child {
     background-image: url( ../images/map2.png );
 }
+
+/* 
+====================
+section greenhouse
+*/
+
+#greenhouse {
+    display: flex;
+    
+}
+@media ( max-width: 600px ) {
+    #greenhouse {
+        display: block;
+    }
+}
+
+#greenhouse > div {
+    flex: 1 0 0;
+    height: 30vh;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+#greenhouse > div {
+    height: 50vh;
+}
+
+#greenhouse > div:first-child,
+#greenhouse > div:last-child {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#greenhouse > div:first-child {
+    background-image: url( ../images/greenhouse1.jpg );
+}
+
+#greenhouse > div:last-child {
+    background-image: url( ../images/greenhouse2.png );
+}

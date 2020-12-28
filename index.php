@@ -85,9 +85,8 @@
         </section>
         <!-- ==================== -->
         <section id="greenhouse">
-            <div>
-                greenhouse
-            </div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
         </section>
         <!-- ==================== -->
         <section>
