@@ -30,7 +30,99 @@ ul {
     list-style: none;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+p, body {
+    font-weight: 300;
+}
+
 main {
     width: 100%;
     height: 100%;
+}
+
+section {
+    width: 100%;
+    background-color: #a39d9d;
+}
+
+section > div {
+    padding: 40px 10vw;
+}
+
+section:nth-child( odd ) {
+    
+    background-color: #999292;
+}
+
+/* 
+====================
+section hero 
+*/
+
+#hero {
+    height: 45vh;
+    display: flex;
+}
+
+#hero > div {
+    flex: 1 0 0;
+}
+
+#hero > div:last-child {
+    background-image: url( ../images/house_current.png );
+    background-size: cover;
+    background-position: center;
+    /* background-size: 50%; */
+    background-repeat: no-repeat;
+}
+
+#hero > div:first-child {
+    background-color: #413d35;
+    background-image: linear-gradient( to right, #333029, #413d35 );
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+#hero > div:first-child > div {
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+#hero > div:first-child > div > span {
+    font-size: 0.8rem;
+    display: block;
+    /* margin-top: 5px; */
+    color: #a39d9d;
+    letter-spacing: 0.16rem;
+}
+
+@media (max-width: 600px ) {
+    #hero > div:first-child > div {
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        width: 125px;
+    }
+    #hero > div:first-child > div > span {
+        font-size: 0.7rem;
+        letter-spacing: 0.1rem;
+    }
 }

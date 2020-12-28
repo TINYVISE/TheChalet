@@ -14,9 +14,18 @@
     <main>
         <!-- ==================== -->
         <section id="hero">
+
             <div>
-                hero
+                <div>
+                    THE CHALET
+                    <span>206 WARD LANE SCHOHARIE</span>
+                </div>
             </div>
+
+            <div>
+                &nbsp;
+            </div>
+
         </section>
         <!-- ==================== -->
         <section>
