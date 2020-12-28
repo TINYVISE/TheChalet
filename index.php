@@ -80,9 +80,8 @@
         </section>
         <!-- ==================== -->
         <section id="property">
-            <div>
-                property
-            </div>
+            <div>Satellite View</div>
+            <div>3D Topo View</div>
         </section>
         <!-- ==================== -->
         <section id="greenhouse">

@@ -195,3 +195,51 @@ section video
 #video video:focus {
     outline: none;
 }
+
+/* 
+====================
+section map
+*/
+
+
+
+/* 
+====================
+section property
+*/
+
+#property {
+    display: flex;
+}
+
+@media ( max-width: 600px ) {
+    #property {
+        display: block;
+    }
+
+    #property div:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+#property > div {
+    flex: 1 0 0;
+    height: 30vh;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+#property > div:first-child,
+#property > div:last-child {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#property > div:first-child {
+    background-image: url( ../images/map1.png );
+}
+
+#property > div:last-child {
+    background-image: url( ../images/map2.png );
+}
