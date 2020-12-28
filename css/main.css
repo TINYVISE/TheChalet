@@ -130,3 +130,35 @@ section hero
 ====================
 section overview 
 */
+
+
+
+/* 
+====================
+section zillow gallery 
+*/
+
+#zillow-gallery {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax( 300px, 1fr) );
+    grid-auto-rows: 230px;
+    grid-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#zillow-gallery > div {
+    padding: 0px;
+    /* object-fit: cover; */
+    overflow: hidden;
+    background-color: #a39d9d;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#zillow-gallery img {
+    width: 100%;
+    object-fit: fill;
+}

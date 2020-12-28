@@ -41,9 +41,28 @@
         </section>
         <!-- ==================== -->
         <section id="zillow-gallery">
-            <div>
-                zillow gallery
-            </div>
+            <div style="background-image: -webkit-image-set( url('images/zillow2-lowres.jpg') 1x, url('images/zillow2.jpg') 2x )" data-pic-id="2"></div>
+
+            <div style="background-image: -webkit-image-set( url('images/zillow3-lowres.jpg') 1x, url('images/zillow3.jpg') 2x )" data-pic-id="3"></div>
+
+            <div style="background-image: url( 'images/zillow7.jpg' );" data-pic-id="7"></div>
+            <div style="background-image: url( 'images/zillow15.jpg' );" data-pic-id="15"></div>
+            <div style="background-image: url( 'images/zillow16.jpg' );" data-pic-id="16"></div>
+            <div style="background-image: url( 'images/zillow17.jpg' );" data-pic-id="17"></div>
+            <div style="background-image: url( 'images/zillow18.jpg' );" data-pic-id="18"></div>
+            <div style="background-image: url( 'images/zillow22.jpg' );" data-pic-id="22"></div>
+            <div style="background-image: url( 'images/zillow32.jpg' );" data-pic-id="32"></div>
+            <div style="background-image: url( 'images/zillow33.jpg' );" data-pic-id="33"></div>
+            <div style="background-image: url( 'images/zillow34.jpg' );" data-pic-id="34"></div>
+            <div style="background-image: url( 'images/zillow39.jpg' );" data-pic-id="39"></div>
+            <div style="background-image: url( 'images/zillow40.jpg' );" data-pic-id="40"></div>
+            <div style="background-image: url( 'images/zillow41.jpg' );" data-pic-id="41"></div>
+            <div style="background-image: url( 'images/zillow42.jpg' );" data-pic-id="42"></div>
+            <div style="background-image: url( 'images/zillow43.jpg' );" data-pic-id="43"></div>
+            <div style="background-image: url( 'images/zillow48.jpg' );" data-pic-id="48"></div>
+            <div style="background-image: url( 'images/zillow49.jpg' );" data-pic-id="49"></div>
+            <div style="background-image: url( 'images/zillow52.jpg' );" data-pic-id="52"></div>
+            <div style="background-image: url( 'images/zillow53.jpg' );" data-pic-id="53"></div>
         </section>
         <!-- ==================== -->
         <section id="video">
