@@ -6,12 +6,13 @@
 html {
     height: 100%;
     box-sizing: border-box;
+    font-size: var( --basefont );
 }
 
 body {
     height: 100%;
     font-family: 'Roboto', arial, sans-serif;
-    font-size: var( --basefont );
+    font-size: 1rem;
     line-height: 1.8rem;
     color: #2c2823;
     font-weight: 300;
@@ -123,6 +124,7 @@ section hero
     #hero > div:first-child > div > span {
         font-size: 0.7rem;
         letter-spacing: 0.1rem;
+        line-height: 1rem;
     }
 }
 
