@@ -67,7 +67,9 @@
         <!-- ==================== -->
         <section id="video">
             <div>
-                video
+                <video controls>
+                    <source src="videos/mp4_600k_landscape_z1.mp4" type="video/mp4">
+                </video>
             </div>
         </section>
         <!-- ==================== -->
