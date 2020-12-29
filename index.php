@@ -145,7 +145,13 @@
             </div>
         </section>
         <!-- ==================== -->
+
+        <footer>
+            <a href="https://github.com/TINYVISE/TheChalet" target="_external"></a>
+        </footer>
+        
     </main>
+    
 
     <script src="js/stylesGoogleMaps2.js"></script>
     <script src="js/main2.js"></script>
