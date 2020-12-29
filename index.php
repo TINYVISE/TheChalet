@@ -152,10 +152,9 @@
 
     </main>
     
-    <script src="js/config.js"></script>
     <script src="js/stylesGoogleMaps2.js"></script>
     <script src="js/main2.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=config.MY_GOOGLE_KEY&callback=alpha" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<?php require_once('config_google_key.php'); ?>&callback=alpha" async defer></script>
     
 </body>
 </html>
