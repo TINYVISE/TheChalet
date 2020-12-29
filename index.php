@@ -149,13 +149,13 @@
         <footer>
             <a href="https://github.com/TINYVISE/TheChalet" target="_external"></a>
         </footer>
-        
+
     </main>
     
-
+    <script src="js/config.js"></script>
     <script src="js/stylesGoogleMaps2.js"></script>
     <script src="js/main2.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzIwcIKB3Ac-hB8LP8CLfQQJhEIvL2idM&callback=alpha" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=config.MY_GOOGLE_KEY&callback=alpha" async defer></script>
     
 </body>
 </html>
