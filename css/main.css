@@ -290,11 +290,6 @@ section map
     background-color: #c7c2b6;
 }
 
-#map .gm-style > div > div > button img {
-    /* background-color: green; */
-    /* border: 2px solid red !important; */
-}
-
 /* 
 ====================
 section property
@@ -353,13 +348,9 @@ section greenhouse
 
 #greenhouse > div {
     flex: 1 0 0;
-    height: 30vh;
+    height: 70vh;
     color: #fff;
     font-size: 0.8rem;
-}
-
-#greenhouse > div {
-    height: 50vh;
 }
 
 #greenhouse > div:first-child,

@@ -32,7 +32,7 @@
             <div>
                 <h2>Overview</h2>
                 <p>
-                    3 bd, 2 ba, 2,156 sqft, year built 1968.  We first saw the property listed for $249,000, passed on it because of how far it was from New York City.  After a lot of searching for homes, we noticed this property was still in the market.  We called the agent and she informed us that the owners would lower the price the next day.  The property was then listed for $229,000.  Being a sellers market, we quickly went to visit.  With the advice of the realestate agent, we made an offer of 230,000, one thousand more than asking price as a gesture.  They accepted our offer. 
+                    December 2020, 3 bd, 2 ba, 2,156 sqft, year built 1968.  We first saw the property listed for $249,000, passed on it because of how far it was from New York City.  After a lot of searching for homes, we noticed this property was still in the market.  We called the agent and she informed us that the owners would lower the price the next day.  The property was then listed for $229,000.  Being a sellers market, we quickly went to visit.  With the advice of the realestate agent, we made an offer of 230,000, one thousand more than asking price as a gesture.  They accepted our offer. 
                 </p>
                 <p>
                     The following photos and video were part of the zillow listing of the house, not pictures we took.
