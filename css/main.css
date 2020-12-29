@@ -203,7 +203,97 @@ section video
 section map
 */
 
+#map > div > div#renderMap > div > div.gm-style > div[tabindex="0"] > div > div > div  {
+    /* structure */
+    position: relative;
+    /* border: 1px solid red; */
+    color: red;
 
+}
+
+#map > div > div#renderMap > div > div.gm-style > div[tabindex="0"] > div > div > div > * {
+    /* structure */
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    color: red;
+}
+
+#map > div > div#renderMap > div > div.gm-style > div[tabindex="0"] > div > div > div > * > div {
+    /* structure */
+    position: relative;
+    color: red;
+}
+
+#map {
+    /* sturcture */
+    /* position: absolute; */
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+    /* width: 100%; */
+    height: 40vh;
+    /* appearance */
+    background-color: #f5f5f5;
+    /* background-image: url( ../images/logo.svg ); */
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center center;
+}
+
+#map > div {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    padding: 0px;
+}
+
+#map > div #renderMap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+#map #info-window {
+    font-size: 0.8rem;
+}
+
+#map .gm-style-iw{
+    box-shadow:none;
+    /* width: 100% !important; */
+    border-radius: 0;
+    left: 0 !important;
+    top: 20px !important;
+}
+
+#map .gm-style > div > div > div > div > div .gm-style-iw-d {
+    overflow: hidden !important;
+    /* border: 2px solid red !important; */
+    padding: 7px 20px;
+}
+#map .gm-style .gm-style-iw-c {
+    padding: 0px;
+}
+
+#map .gm-style .gm-style-iw-t::after {
+    background: linear-gradient( 45deg, #c7c2b6 50%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 100% );
+}
+
+#map .gm-style > div > div > div > div > div > div > div > div {
+    /* border: 2px solid red; */
+    border-radius: 0;
+    top: 0px !important;
+    color: #302c26;
+    background-color: #c7c2b6;
+}
+
+#map .gm-style > div > div > button img {
+    /* background-color: green; */
+    /* border: 2px solid red !important; */
+}
 
 /* 
 ====================

@@ -75,7 +75,7 @@
         <!-- ==================== -->
         <section id="map">
             <div>
-                map
+                <div id="renderMap"></div>
             </div>
         </section>
         <!-- ==================== -->
@@ -147,6 +147,9 @@
         <!-- ==================== -->
     </main>
 
-    <script src="js/main.js"></script>
+    <script src="js/stylesGoogleMaps2.js"></script>
+    <script src="js/main2.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzIwcIKB3Ac-hB8LP8CLfQQJhEIvL2idM&callback=alpha" async defer></script>
+    
 </body>
 </html>
